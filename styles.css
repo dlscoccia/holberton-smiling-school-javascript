@@ -6,6 +6,10 @@ body {
 	font-family: 'Coiny';
   }
   
+a:hover,
+a:active {
+  opacity: 0.9;
+}
   header {
 	background-image: url(images/pic_1.jpg);
 	background-position: center;
