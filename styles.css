@@ -69,9 +69,10 @@ body {
 	font-size: 12px;
   }
   
-  .holberton_school-icon-arrow_3,
-  .holberton_school-icon-arrow_4 {
-	font-size: 5rem;
+  .holberton_school-icon-arrow_3 img,
+  .holberton_school-icon-arrow_4 img {
+	height: 15%;
+  width: 50%;
   }
   
   .holberton_school-icon-check {
