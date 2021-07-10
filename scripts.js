@@ -1,6 +1,6 @@
-//** Quotes **
+$(document).ready(function () {
 
-function createQuotes(name, pic_url, text, title) {
+  function createQuotes(name, pic_url, text, title) {
   $('#addQuotes').append(`
     <div class="carousel-item">
         <div class="row justify-content-around">
@@ -304,3 +304,4 @@ queryTutorials();
 queryLatest();
 queryCourses();
 displayCourseVideos();
+});
